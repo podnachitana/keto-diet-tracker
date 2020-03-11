@@ -1,0 +1,23 @@
+$fonts: '../fonts';
+$montserrat: $fonts + '/Montserrat';
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url($montserrat + '/Montserrat-Light.ttf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url($montserrat + '/Montserrat-Regular.ttf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url($montserrat + '/Montserrat-Medium.ttf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
