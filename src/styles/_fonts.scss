@@ -1,5 +1,6 @@
 $fonts: '../fonts';
 $montserrat: $fonts + '/Montserrat';
+$geometria: $fonts + '/Geometria';
 
 @font-face {
   font-family: 'Montserrat';
@@ -21,3 +22,12 @@ $montserrat: $fonts + '/Montserrat';
   font-weight: 700;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Geometria';
+  src: url($geometria + '/Geometria.ttf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
